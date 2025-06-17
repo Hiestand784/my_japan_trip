@@ -4,3 +4,55 @@
   padding: 2rem;
   text-align: center;
 }
+
+.header {
+  background-color: #282c34;
+  padding: 1rem 0;
+  color: white;
+}
+
+.title {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: #282c34;
+  padding: 1rem 0;
+  color: white;
+  margin-top: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
